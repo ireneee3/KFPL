@@ -1,0 +1,10 @@
+I0315 14:56:27.444342    2616 load.go:37] Reloading schema and connectors...
+I0315 14:56:27.542642    2616 control.go:59] [/emulator/kfpl e003] UpdateResources(): done
+Schema: sources: schema\schema.gql [2088B] 
+Connector "default": sources: connector\mutations.gql [1233B] connector\queries.gql [1802B] 
+I0315 14:56:27.582258    2616 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Irene\\OneDrive\\Desktop\\KFPL\\dataconnect-generated\\js\\default-connector"
+I0315 14:56:27.607028    2616 collector.go:107] schema extensions wrote into "C:\\Users\\Irene\\OneDrive\\Desktop\\KFPL\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [67020B] 
+I0315 14:56:27.822301    2616 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Irene\\OneDrive\\Desktop\\KFPL\\dataconnect-generated\\js\\default-connector"
+Generated sources: index.d.ts [246B] esm\package.json [17B] index.cjs.js [143B] package.json [895B] react\index.d.ts [228B] esm\index.esm.js [107B] README.md [2800B] react\package.json [468B] react\esm\package.json [17B] react\index.cjs.js [0B] react\esm\index.esm.js [0B] react\README.md [5443B] 
+I0315 14:56:27.939523    2616 installsdk.go:76] Running command: C:\Program Files\nodejs\npm.cmd install file:dataconnect-generated\js\default-connector
